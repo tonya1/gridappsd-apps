@@ -2,4 +2,4 @@
 
 docker pull gridappsd/app-container-base:develop
 
-docker-compose -f docker-comopose-soloar-forecast.yml build
+docker-compose -f docker-compose-solar-forecast.yml build
