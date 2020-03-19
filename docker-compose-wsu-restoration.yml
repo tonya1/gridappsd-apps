@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  wsu_restoration:
+    image: gridappsd/wsu-restoration-app
+    build:
+#      context: https://github.com/shpoudel/WSU-Restoration.git#develop
+      context: ./WSU-Restoration
+      dockerfile: Dockerfile-wsu-restoration-pnnl
+
+#      git clone  https://github.com/shpoudel/WSU-Restoration.git -b develop
+#      cp Dockerfile-wsu-restoration-pnnl WSU-Restoration/.
