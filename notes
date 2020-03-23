@@ -1,0 +1,5 @@
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+
+cd /opt/ibm/ILOG/CPLEX_Studio129/cplex/python/3.4/x86-64_linux/ ; python setup.py install
+
+

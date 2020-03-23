@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  wsu_vvo:
+    image: gridappsd/wsu-vvo-app
+    build:
+#      context: https://github.com/shpoudel/WSU-Restoration.git#develop
+      context: ./WSU-VVO-app
+      dockerfile: Dockerfile-wsu-vvo-pnnl
+
+#      https://github.com/therahuljha/WSU-VVO-app.git
+
+#      git clone  https://github.com/shpoudel/WSU-Restoration.git -b develop
+#      cp Dockerfile-wsu-restoration-pnnl WSU-Restoration/.
